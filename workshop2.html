@@ -10,7 +10,50 @@
 			}
 		</style>
 		<script>
-			<!-- JavaScript goes here -->
+			/*document.write("<em><strong>If I had nine hours to chop down a tree, I'd spend the first six sharpening my ax.</strong> <br>-- Abraham Lincoln<br></em>");
+			
+			function repeatingText() {
+				document.write("I'm going out on a limb, but I think this is a function. <br>");
+				return;
+			}
+			for (i=0; i<=50; i++){
+				repeatingText();
+			}
+
+			if (navigator.appVersion.includes("Chrome")) {
+  				console.log("Selain on Chrome.")
+				location.href = "http://www.google.com";
+			}
+				else if (navigator.userAgent.includes("Firefox")) {
+  					console.log("Selain on Firefox.")
+					location.href = "http://mozilla.org";
+				}
+				else
+					console.log("Selain on todennäköisesti IE.");
+				
+			function studentButton() { 
+				var txt;
+				var r = confirm("Are you a student?");
+				if (r == true) {
+					txt = "Welcome student!";
+					} else {
+						txt = "Sorry, this page is for students only."
+						}
+				document.write(txt);
+			}
+
+			studentButton();
+
+			var images =[
+				"http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg", 
+				"http://farm1.staticflickr.com/33/45336904_1aef569b30_n.jpg", 
+				"http://farm6.staticflickr.com/5211/5384592886_80a512e2c9.jpg"
+			];
+
+			var imageNumber = Math.round (Math.random() *2);
+			console.log(imageNumber+" Randomized number");
+
+		*/
 		</script>
 </head>
 
@@ -22,13 +65,16 @@
 </div>
 <div><hr /></div>
 <div>
-<p>In this exercise we will practice the use of BOM and the JavaScript events. Use the lecture-material as a reference guide side by side these exercises. It might also be a good idea to save the lines of code you write during the exercises for later use.</p>
+<p>In this exercise we will practice the use of BOM and the JavaScript events. Use the lecture-material as a reference guide side by side these exercises. 
+	It might also be a good idea to save the lines of code you write during the exercises for later use.</p>
 </div>
 <div>
 <h2>Exercise 1</h2>
 </div>
 <div>
-<p>Add JavaScript commands in the script-tag of this page, which will write the following text on the browser page. Use HTML-tags when writing the output to produce the text styles to the page. <br /> <br /> <em><strong>"If I had nine hours to chop down a tree, I'd spend the first six sharpening my ax."</strong> <br /> -- Abraham Lincoln</em></p>
+<p>Add JavaScript commands in the script-tag of this page, which will write the following text on the browser page. 
+	Use HTML-tags when writing the output to produce the text styles to the page. 
+	<br /> <br /> <em><strong>"If I had nine hours to chop down a tree, I'd spend the first six sharpening my ax."</strong> <br /> -- Abraham Lincoln</em></p>
 </div>
 <div>
 <h2>Exercise 2</h2>
@@ -40,18 +86,22 @@
 <h2>Exercise 3</h2>
 </div>
 <div>
-<p>Create a JavaScript if-statement, which checks if the user is using Mozilla/Firefox browser. If it is, the browser should load http://mozilla.org. Otherwise go to http://www.microsoft.com" page. Test the code.</p>
+<p>Create a JavaScript if-statement, which checks if the user is using Mozilla/Firefox browser. 
+	If it is, the browser should load http://mozilla.org. Otherwise go to http://www.microsoft.com" page. Test the code.</p>
 </div>
 <div>
 <h2>Exercise 4</h2>
 </div>
 <div>
-<p>Create a simple web page, where JavaScript confirm-dialog will pop out asking if the user is a student or not. If the user clicks OK write "Welcome student" to the page. If the user clicks cancel, write on the page: "Sorry, this page is for students only". HINT: Confirm(); return true if the user click OK and false if cancel was clicked.</p>
+<p>Create a simple web page, where JavaScript confirm-dialog will pop out asking if the user is a student or not. 
+	If the user clicks OK write "Welcome student" to the page. If the user clicks cancel, write on the page: 
+	"Sorry, this page is for students only". HINT: Confirm(); return true if the user click OK and false if cancel was clicked.</p>
 </div>
 <div>
 <h2>Exercise 5</h2>
 </div>
-<p>Use document.write to output an image tag with an image to the page (demo shown in the class). When you're done, try writing a JavaScript function to display a random image from the following list of images.</p>
+<p>Use document.write to output an image tag with an image to the page (demo shown in the class). When you're done, try writing a JavaScript function to 
+	display a random image from the following list of images.</p>
 <div>
 <p>HINT: You can access individual images using the table index. Images[0] for example contains the url: "http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg".</p>
 <p>HINT 2: Random number between 0-2 can be created using var number = Math.round ( Math.random() * 2 )</p>
